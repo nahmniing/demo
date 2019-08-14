@@ -216,7 +216,7 @@ iframe {
     -o-animation: ball-scale infinite linear .75s;
     animation: ball-scale infinite linear .75s;
     border-radius: 100%;
-    background-color: #e65540;
+    background-color: #00A94B;
 }
 
 @-webkit-keyframes ball-scale {
