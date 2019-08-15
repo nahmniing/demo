@@ -645,6 +645,15 @@ iframe {
   max-height: 27px;
 }
 
+@media (max-width: 1024px){
+  .logo {
+    left: 30px;
+  }
+  
+  .logo img {
+    max-height: 14px;
+  }
+}
 
 /*[ Menu ]
 -----------------------------------------------------------*/
@@ -760,6 +769,12 @@ li.sale-noti > a {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+@media (max-width: 1024px) {
+  .header-icons {
+    right: 30px;
+  }
 }
 
 .header-wrapicon1,
@@ -975,7 +990,7 @@ li.sale-noti > a {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: white;
+  background: linear-gradient(to left, rgb(42, 58, 65), rgb(84, 105, 108) 50%);
   display: none;
 }
 
@@ -987,6 +1002,18 @@ li.sale-noti > a {
 
 .logo-mobile img {
   max-height: 27px;
+}
+
+@media (max-width: 415px) {
+  .logo-mobile img {
+    max-height: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo-mobile img {
+    max-height: 12px;
+  }
 }
 
 /*[ btn show menu ]
@@ -1009,6 +1036,10 @@ li.sale-noti > a {
   -o-transform: scale(0.8);
   transform: scale(0.8);
   margin-top: 5px;
+}
+
+span .hamburger-inner, span .hamburger-inner:after, span .hamburger-inner:before {
+    background-color: #fff;
 }
 
 
