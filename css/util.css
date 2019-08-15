@@ -3593,6 +3593,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	height: 100%;
 }
 
+.size25 {
+	width: 120px;
+	height: 36px;
+}
+
 /*[ Width Size ]
 ///////////////////////////////////////////////////////////
 */
@@ -3903,7 +3908,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 -----------------------------------------------------------
 */
 .eff2:active {
-	background-color: #e65540;
+	background-color: #00A94B;
 	color: white;
 }
 

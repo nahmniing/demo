@@ -1902,7 +1902,7 @@ span .hamburger-inner, span .hamburger-inner:after, span .hamburger-inner:before
 */
 .bg-title-page {
   width: 100%;
-  min-height: 239px;
+  min-height: 150px;
   padding-left: 15px;
   padding-right: 15px;
   background-repeat: no-repeat;
